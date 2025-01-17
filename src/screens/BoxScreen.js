@@ -1,12 +1,12 @@
 import React from "react";
-import { Text, StyleSheet, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 const BoxScreen = () => {
   return (
     <View style={styles.parentStyle}>
-      <View style={styles.viewOneStyle}>Child #1</View>
-      <View style={styles.viewTwoStyle}>Child #2</View>
-      <View style={styles.viewThreeStyle}>Child #3</View>
+      <View style={styles.viewOneStyle}></View>
+      <View style={styles.viewTwoStyle}></View>
+      <View style={styles.viewThreeStyle}></View>
     </View>
   );
 };
